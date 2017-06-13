@@ -28,6 +28,7 @@ class MainViewController: UIViewController,UITextFieldDelegate {
         //for dismissing the keyboard
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard)));
         refLogins  = Database.database().reference().child("LoginTable")
+        print("Making a change to test out source control");
         
     }
     
