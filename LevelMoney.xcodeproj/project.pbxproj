@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2181D5F1EE5B76D00F2BEB2 /* BankSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2181D5E1EE5B76D00F2BEB2 /* BankSetupViewController.swift */; };
+		E2181D611EE5C4AF00F2BEB2 /* PickBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2181D601EE5C4AF00F2BEB2 /* PickBankViewController.swift */; };
+		E22C61021EEB3BA4003B0E62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22C61011EEB3BA4003B0E62 /* GoogleService-Info.plist */; };
+		E22C61041EEB4395003B0E62 /* AddBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C61031EEB4395003B0E62 /* AddBankViewController.swift */; };
+		E22C61061EEB45B8003B0E62 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C61051EEB45B8003B0E62 /* Bank.swift */; };
+		E22C61081EEB5997003B0E62 /* MyBankAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C61071EEB5997003B0E62 /* MyBankAccounts.swift */; };
+		E22C610A1EEB8965003B0E62 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C61091EEB8965003B0E62 /* AddExpenseViewController.swift */; };
+		E22C610C1EEB8BEB003B0E62 /* MonthlyExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C610B1EEB8BEB003B0E62 /* MonthlyExpense.swift */; };
+		E22C610E1EEB9981003B0E62 /* ViewExpenseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C610D1EEB9981003B0E62 /* ViewExpenseDetailViewController.swift */; };
+		E22C61101EEBAC19003B0E62 /* ExpDetailExtendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C610F1EEBAC19003B0E62 /* ExpDetailExtendedViewController.swift */; };
+		E254EA561EE6E362003A0091 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254EA551EE6E362003A0091 /* Accounts.swift */; };
+		E29982E81EEC83CD000B2693 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29982E71EEC83CD000B2693 /* Expense.swift */; };
+		E2AB65051EE743920039ADBF /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AB65041EE743920039ADBF /* AccountDetails.swift */; };
+		E2AE6B4C1EE769CC00C3E7AD /* MyAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE6B4B1EE769CC00C3E7AD /* MyAccountsViewController.swift */; };
+		E2BAFA8E1EE349B7005FBF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAFA8D1EE349B7005FBF56 /* AppDelegate.swift */; };
+		E2BAFA901EE349B7005FBF56 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAFA8F1EE349B7005FBF56 /* MainViewController.swift */; };
+		E2BAFA931EE349B7005FBF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BAFA911EE349B7005FBF56 /* Main.storyboard */; };
+		E2BAFA951EE349B7005FBF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BAFA941EE349B7005FBF56 /* Assets.xcassets */; };
+		E2BAFA981EE349B7005FBF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BAFA961EE349B7005FBF56 /* LaunchScreen.storyboard */; };
+		E2BAFAA01EE365BD005FBF56 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAFA9F1EE365BD005FBF56 /* SignUpViewController.swift */; };
+		E2D3C7821EE71FCA00866D2E /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D3C7811EE71FCA00866D2E /* AddAccountViewController.swift */; };
+		E2F2CB8D1EE48A1E00252711 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2CB8C1EE48A1E00252711 /* CreateProfileViewController.swift */; };
+		E2F2CB8F1EE4C30F00252711 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2CB8E1EE4C30F00252711 /* Login.swift */; };
+		E2F2CB911EE6067500252711 /* BankLevelMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2CB901EE6067500252711 /* BankLevelMoney.swift */; };
+		EA8F633DCB032E66F0E4EE77 /* Pods_LevelMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF3BDAEE84095F3C47001F /* Pods_LevelMoney.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CDF3BDAEE84095F3C47001F /* Pods_LevelMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LevelMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A4AAFC4FDB62AF16F1C110 /* Pods-LevelMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LevelMoney/Pods-LevelMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		4C605B2BAD1B55CD3D2680D2 /* Pods-LevelMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-LevelMoney/Pods-LevelMoney.release.xcconfig"; sourceTree = "<group>"; };
+		E2181D5E1EE5B76D00F2BEB2 /* BankSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankSetupViewController.swift; sourceTree = "<group>"; };
+		E2181D601EE5C4AF00F2BEB2 /* PickBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickBankViewController.swift; sourceTree = "<group>"; };
+		E22C61011EEB3BA4003B0E62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E22C61031EEB4395003B0E62 /* AddBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBankViewController.swift; sourceTree = "<group>"; };
+		E22C61051EEB45B8003B0E62 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		E22C61071EEB5997003B0E62 /* MyBankAccounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBankAccounts.swift; sourceTree = "<group>"; };
+		E22C61091EEB8965003B0E62 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		E22C610B1EEB8BEB003B0E62 /* MonthlyExpense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyExpense.swift; sourceTree = "<group>"; };
+		E22C610D1EEB9981003B0E62 /* ViewExpenseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExpenseDetailViewController.swift; sourceTree = "<group>"; };
+		E22C610F1EEBAC19003B0E62 /* ExpDetailExtendedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpDetailExtendedViewController.swift; sourceTree = "<group>"; };
+		E254EA551EE6E362003A0091 /* Accounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		E29982E71EEC83CD000B2693 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		E2AB65041EE743920039ADBF /* AccountDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
+		E2AE6B4B1EE769CC00C3E7AD /* MyAccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountsViewController.swift; sourceTree = "<group>"; };
+		E2BAFA8A1EE349B7005FBF56 /* LevelMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BAFA8D1EE349B7005FBF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2BAFA8F1EE349B7005FBF56 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E2BAFA921EE349B7005FBF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2BAFA941EE349B7005FBF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BAFA971EE349B7005FBF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2BAFA991EE349B7005FBF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BAFA9F1EE365BD005FBF56 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E2D3C7811EE71FCA00866D2E /* AddAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
+		E2F2CB8C1EE48A1E00252711 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		E2F2CB8E1EE4C30F00252711 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E2F2CB901EE6067500252711 /* BankLevelMoney.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankLevelMoney.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2BAFA871EE349B7005FBF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8F633DCB032E66F0E4EE77 /* Pods_LevelMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200707AF5216DAEE3E9F7B12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30A4AAFC4FDB62AF16F1C110 /* Pods-LevelMoney.debug.xcconfig */,
+				4C605B2BAD1B55CD3D2680D2 /* Pods-LevelMoney.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2BAFA811EE349B7005FBF56 = {
+			isa = PBXGroup;
+			children = (
+				E2BAFA8C1EE349B7005FBF56 /* LevelMoney */,
+				E2BAFA8B1EE349B7005FBF56 /* Products */,
+				200707AF5216DAEE3E9F7B12 /* Pods */,
+				F1ADBFFECFDA7A5000B3E244 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2BAFA8B1EE349B7005FBF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAFA8A1EE349B7005FBF56 /* LevelMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2BAFA8C1EE349B7005FBF56 /* LevelMoney */ = {
+			isa = PBXGroup;
+			children = (
+				E22C61011EEB3BA4003B0E62 /* GoogleService-Info.plist */,
+				E2BAFA8D1EE349B7005FBF56 /* AppDelegate.swift */,
+				E2BAFA8F1EE349B7005FBF56 /* MainViewController.swift */,
+				E2BAFA911EE349B7005FBF56 /* Main.storyboard */,
+				E2BAFA941EE349B7005FBF56 /* Assets.xcassets */,
+				E2BAFA961EE349B7005FBF56 /* LaunchScreen.storyboard */,
+				E2BAFA991EE349B7005FBF56 /* Info.plist */,
+				E2BAFA9F1EE365BD005FBF56 /* SignUpViewController.swift */,
+				E2F2CB8C1EE48A1E00252711 /* CreateProfileViewController.swift */,
+				E2F2CB8E1EE4C30F00252711 /* Login.swift */,
+				E2181D5E1EE5B76D00F2BEB2 /* BankSetupViewController.swift */,
+				E2181D601EE5C4AF00F2BEB2 /* PickBankViewController.swift */,
+				E2F2CB901EE6067500252711 /* BankLevelMoney.swift */,
+				E254EA551EE6E362003A0091 /* Accounts.swift */,
+				E2D3C7811EE71FCA00866D2E /* AddAccountViewController.swift */,
+				E2AB65041EE743920039ADBF /* AccountDetails.swift */,
+				E2AE6B4B1EE769CC00C3E7AD /* MyAccountsViewController.swift */,
+				E22C61031EEB4395003B0E62 /* AddBankViewController.swift */,
+				E22C61051EEB45B8003B0E62 /* Bank.swift */,
+				E22C61071EEB5997003B0E62 /* MyBankAccounts.swift */,
+				E22C61091EEB8965003B0E62 /* AddExpenseViewController.swift */,
+				E22C610B1EEB8BEB003B0E62 /* MonthlyExpense.swift */,
+				E22C610D1EEB9981003B0E62 /* ViewExpenseDetailViewController.swift */,
+				E22C610F1EEBAC19003B0E62 /* ExpDetailExtendedViewController.swift */,
+				E29982E71EEC83CD000B2693 /* Expense.swift */,
+			);
+			path = LevelMoney;
+			sourceTree = "<group>";
+		};
+		F1ADBFFECFDA7A5000B3E244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDF3BDAEE84095F3C47001F /* Pods_LevelMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BAFA891EE349B7005FBF56 /* LevelMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BAFA9C1EE349B7005FBF56 /* Build configuration list for PBXNativeTarget "LevelMoney" */;
+			buildPhases = (
+				BE4FFF401C92E09F7D24BBAD /* [CP] Check Pods Manifest.lock */,
+				E2BAFA861EE349B7005FBF56 /* Sources */,
+				E2BAFA871EE349B7005FBF56 /* Frameworks */,
+				E2BAFA881EE349B7005FBF56 /* Resources */,
+				8E4A3AD318DE8109A5AF699A /* [CP] Embed Pods Frameworks */,
+				852E711A1CCB301E23A0E8DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LevelMoney;
+			productName = LevelMoney;
+			productReference = E2BAFA8A1EE349B7005FBF56 /* LevelMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2BAFA821EE349B7005FBF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lionel;
+				TargetAttributes = {
+					E2BAFA891EE349B7005FBF56 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 26BUMFT7Y6;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E2BAFA851EE349B7005FBF56 /* Build configuration list for PBXProject "LevelMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2BAFA811EE349B7005FBF56;
+			productRefGroup = E2BAFA8B1EE349B7005FBF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2BAFA891EE349B7005FBF56 /* LevelMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2BAFA881EE349B7005FBF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BAFA981EE349B7005FBF56 /* LaunchScreen.storyboard in Resources */,
+				E22C61021EEB3BA4003B0E62 /* GoogleService-Info.plist in Resources */,
+				E2BAFA951EE349B7005FBF56 /* Assets.xcassets in Resources */,
+				E2BAFA931EE349B7005FBF56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		852E711A1CCB301E23A0E8DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LevelMoney/Pods-LevelMoney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4A3AD318DE8109A5AF699A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LevelMoney/Pods-LevelMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4FFF401C92E09F7D24BBAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2BAFA861EE349B7005FBF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22C610C1EEB8BEB003B0E62 /* MonthlyExpense.swift in Sources */,
+				E22C610E1EEB9981003B0E62 /* ViewExpenseDetailViewController.swift in Sources */,
+				E2F2CB8D1EE48A1E00252711 /* CreateProfileViewController.swift in Sources */,
+				E22C61101EEBAC19003B0E62 /* ExpDetailExtendedViewController.swift in Sources */,
+				E29982E81EEC83CD000B2693 /* Expense.swift in Sources */,
+				E2F2CB8F1EE4C30F00252711 /* Login.swift in Sources */,
+				E2AB65051EE743920039ADBF /* AccountDetails.swift in Sources */,
+				E2D3C7821EE71FCA00866D2E /* AddAccountViewController.swift in Sources */,
+				E254EA561EE6E362003A0091 /* Accounts.swift in Sources */,
+				E2181D5F1EE5B76D00F2BEB2 /* BankSetupViewController.swift in Sources */,
+				E22C61081EEB5997003B0E62 /* MyBankAccounts.swift in Sources */,
+				E2F2CB911EE6067500252711 /* BankLevelMoney.swift in Sources */,
+				E2BAFAA01EE365BD005FBF56 /* SignUpViewController.swift in Sources */,
+				E22C610A1EEB8965003B0E62 /* AddExpenseViewController.swift in Sources */,
+				E2BAFA901EE349B7005FBF56 /* MainViewController.swift in Sources */,
+				E2181D611EE5C4AF00F2BEB2 /* PickBankViewController.swift in Sources */,
+				E2AE6B4C1EE769CC00C3E7AD /* MyAccountsViewController.swift in Sources */,
+				E2BAFA8E1EE349B7005FBF56 /* AppDelegate.swift in Sources */,
+				E22C61041EEB4395003B0E62 /* AddBankViewController.swift in Sources */,
+				E22C61061EEB45B8003B0E62 /* Bank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2BAFA911EE349B7005FBF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BAFA921EE349B7005FBF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2BAFA961EE349B7005FBF56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BAFA971EE349B7005FBF56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2BAFA9A1EE349B7005FBF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2BAFA9B1EE349B7005FBF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BAFA9D1EE349B7005FBF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A4AAFC4FDB62AF16F1C110 /* Pods-LevelMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26BUMFT7Y6;
+				INFOPLIST_FILE = LevelMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lioneljones.LevelMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "088ebaa8-7d9f-4681-8a8e-2e901bdca633";
+				PROVISIONING_PROFILE_SPECIFIER = LevelMoneyDevProfile;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2BAFA9E1EE349B7005FBF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C605B2BAD1B55CD3D2680D2 /* Pods-LevelMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 26BUMFT7Y6;
+				INFOPLIST_FILE = LevelMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lioneljones.LevelMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dbf55366-12b5-4f72-888a-47f6df44f20f";
+				PROVISIONING_PROFILE_SPECIFIER = LevelMoneyDistProfile;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2BAFA851EE349B7005FBF56 /* Build configuration list for PBXProject "LevelMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BAFA9A1EE349B7005FBF56 /* Debug */,
+				E2BAFA9B1EE349B7005FBF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BAFA9C1EE349B7005FBF56 /* Build configuration list for PBXNativeTarget "LevelMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BAFA9D1EE349B7005FBF56 /* Debug */,
+				E2BAFA9E1EE349B7005FBF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2BAFA821EE349B7005FBF56 /* Project object */;
+}
