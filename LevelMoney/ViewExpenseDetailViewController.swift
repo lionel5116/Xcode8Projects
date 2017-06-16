@@ -21,6 +21,7 @@ class ViewExpenseDetailViewController: UIViewController ,UITableViewDataSource,U
     ];
     
     @IBOutlet weak var tvExpenseItems: UITableView!
+    
     @IBAction func getExpenseItems(_ sender: Any) {
         fetchExpenseItemsFireBase();
     }
@@ -31,6 +32,7 @@ class ViewExpenseDetailViewController: UIViewController ,UITableViewDataSource,U
        refExpenseItems  = Database.database().reference().child("ExpenseItems")
         self.tvExpenseItems.dataSource = self;
         self.tvExpenseItems.delegate = self;
+        fetchExpenseItemsFireBase();
     }
 
     

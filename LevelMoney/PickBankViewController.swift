@@ -51,6 +51,7 @@ class PickBankViewController: UIViewController,UITableViewDataSource,UITableView
         print("User Name passed from login screen  \(self.oAccounts.loginName!)");
         refBanks  = Database.database().reference().child("Bank");
         lblSelectABank.text = "";
+        
    }
 
     override func didReceiveMemoryWarning() {

@@ -46,6 +46,7 @@ class AddBankViewController: UIViewController,UITableViewDataSource,UITableViewD
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard)));
         //FirebaseApp.configure();  //do at the appDelegate level
         refBanks  = Database.database().reference().child("Bank");
+        fetchBanksFireBase();
     }
 
     

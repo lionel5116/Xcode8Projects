@@ -51,6 +51,7 @@ class MainViewController: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func showLoginFields(_ sender: Any) {
+        clearLoginFields();
         showHideLoginFields(show:false);
     }
 
@@ -58,7 +59,8 @@ class MainViewController: UIViewController,UITextFieldDelegate {
     {
         let oAccounts = Accounts();
         oAccounts.loginName = self.txtUserName.text;
-        
+        self.lblLoginError.text = "";
+
         let objBankSetupViewController = self.storyboard?.instantiateViewController(withIdentifier: "BankSetupViewController") as! BankSetupViewController;
         objBankSetupViewController.oAccounts = oAccounts;
         self.navigationController?.pushViewController(objBankSetupViewController, animated: true);
@@ -90,6 +92,11 @@ class MainViewController: UIViewController,UITextFieldDelegate {
        self.btnLogin.isHidden = show;
     }
     
+    func clearLoginFields()
+    {
+        self.txtUserName.text = "";
+        self.txtPassword.text = "";
+    }
     
     
     
@@ -143,6 +150,7 @@ class MainViewController: UIViewController,UITextFieldDelegate {
             self.bFound = true;
             self.lblLoginError.textColor = UIColor.blue;
             self.lblLoginError.text = "Success!!";
+            showHideLoginFields(show:true);
             proceedToBankSetup();
             return;
         }
